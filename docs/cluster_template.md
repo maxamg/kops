@@ -17,7 +17,7 @@ metadata:
   name: nodes
 spec:
   image: coreos.com/CoreOS-stable-1409.6.0-hvm
-  kubernetesVersion: {{.kubernetesVersion}
+  kubernetesVersion: {{.kubernetesVersion}}
   machineType: m4.large
   maxPrice: "0.5"
   maxSize: 20
